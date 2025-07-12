@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Nothing</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: white;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    img {
+      max-width: 80%;
+      border: 5px dashed #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 20px lime;
+    }
+    .text {
+      margin-top: 20px;
+      font-size: 1.5rem;
+      animation: flicker 1.5s infinite;
+    }
+    @keyframes flicker {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+  </style>
+</head>
+<body>
+  <img src="https://i.imgflip.com/4/4t0m5.jpg" alt="Meme">
+  <div class="text">You expected content, but it was me, DIO!</div>
+</body>
+</html>
